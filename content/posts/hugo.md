@@ -16,10 +16,10 @@
     `hugo new posts/my-first-post.md`
 5. 启动hugo server
     `hugo server -D`
-    启动成功后在[http://localhost:1313/](http://localhost:1313/)就可以看到自己的网站了
+    启动成功后在[http://localhost:1313/](http://localhost:1313/)就可以看到自己的网站了  
 
 
-### [部署到github上](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+### [部署到github上](https://gohugo.io/hosting-and-deployment/hosting-on-github/)    
 1. Create a `<YOUR-PROJECT>` (e.g. `blog`) repository on GitHub. This repository will contain Hugo’s content and other source files.
 2. Create a `<USERNAME>.github.io` GitHub repository. This is the repository that will contain the fully rendered version of your Hugo website.
 3. `git clone <YOUR-PROJECT-URL> && cd <YOUR-PROJECT>`
