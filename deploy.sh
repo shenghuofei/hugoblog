@@ -6,7 +6,9 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 hugo -t ananke # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
-#cd public
+cd public
+sh ./deploy.sh
+cd ..
 # Add changes to git.
 git add .
 
