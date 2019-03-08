@@ -6,7 +6,7 @@
 2. 创建网站  
     `hugo new site myblog`
 3. 给网站添加一个主题  
-    ```
+    ```shell
     cd myblog    
     git init    
     git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke     
@@ -28,14 +28,14 @@
     * Press Ctrl+C to kill the server
     * rm -rf public to completely remove the public directory  
     * push your site to `<YOUR-PROJECT>` repository  
-       ```
+       ```shell
        git add .    
        git commit -m "some msg"    
        git push origin master    
        ```
 6. `git submodule add -b master git@github.com:<USERNAME>/<USERNAME>.github.io.git public`. This creates a git submodule. Now when you run the `hugo` command to build your site to `public`, the created `public` directory will have a different remote origin (i.e. hosted GitHub repository). You can automate some of these steps with the following script.
 7. submit the change  
-    ```
+    ```shell
     git add .    
     git commit -m "some msg"    
     git push origin master    
