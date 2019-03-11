@@ -2,6 +2,7 @@ baseurl = "https://shenghuofei.github.io/"
 title = "My technical corner"
 theme = "hugo-coder"
 languagecode = "en"
+content = "Devops"
 defaultcontentlanguage = "en"
 
 paginate = 20
@@ -42,7 +43,7 @@ disqusShortname = "yourdiscussshortname"
 [[params.social]]
     name = "Blog"
     weight = 1
-    url = "http://localhost:1313/posts/"
+    url = "https://shenghuofei.github.io/posts/"
 
 # Menu links
 [[menu.main]]
