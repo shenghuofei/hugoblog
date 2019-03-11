@@ -1,0 +1,12 @@
+baseURL = "https://shenghuofei.github.io/"
+languageCode = "en-us"
+title = "My technical corner"
+theme = "ananke"
+paginate = 5
+
+[blackfriday]
+  angledQuotes = false
+  fractions = false
+  plainIDAnchors = true
+  extensions = ["hardLineBreak", "fencedCode"]
+

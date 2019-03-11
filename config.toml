@@ -1,12 +1,51 @@
-baseURL = "https://shenghuofei.github.io/"
-languageCode = "en-us"
+baseurl = "https://shenghuofei.github.io/"
 title = "My technical corner"
-theme = "ananke"
-paginate = 5
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
 
-[blackfriday]
-  angledQuotes = false
-  fractions = false
-  plainIDAnchors = true
-  extensions = ["hardLineBreak", "fencedCode"]
+paginate = 20
+canonifyurls = true
 
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Shenghuofei"
+    info = "My technical corner"
+    description = "John Doe's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "images/avatar.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = "my another blog: https://www.cnblogs.com/276815076/"
+
+    hidecredits = true
+    hidecopyright = true
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 2
+    url = "https://github.com/shenghuofei"
+[[params.social]]
+    name = "Blog"
+    weight = 1
+    url = "http://localhost:1313/posts/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
